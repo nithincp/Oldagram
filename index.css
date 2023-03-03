@@ -1,0 +1,87 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source-Sans-Pro', sans-serif;
+}
+
+
+
+
+/* Layout */
+
+header{
+    border-bottom: 1px solid #C6C6C6;
+    padding: 17px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.app-logo{
+    width: 300px;
+}
+
+.account-pfp-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.account-pfp{
+    width: 60px;
+    border-radius: 50%;
+}
+
+.avatar-details{
+    display: flex;
+    margin-top: 20px;
+}
+
+.avatar{
+    width: 60px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.name-location{
+    padding-top: 10px;
+}
+
+.name{
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+
+.location{
+    margin-top: 0px;
+}
+
+.post{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.btns{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    width: 40px;
+}
+
+.alignment{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.likes{
+    font-weight: 900;
+    margin-top: 0px;
+}
+
+.post-desc span{
+    font-weight: 900;
+}
