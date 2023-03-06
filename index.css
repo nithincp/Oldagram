@@ -85,3 +85,7 @@ header{
 .post-desc span{
     font-weight: 900;
 }
+
+.post-img{
+    min-width: 60vw;
+}
